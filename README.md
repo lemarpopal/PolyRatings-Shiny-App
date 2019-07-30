@@ -1,6 +1,6 @@
 You can find the shiny app here!
 
-https://ayakkala.shinyapps.io/polyrating/
+https://lemarpopal.shinyapps.io/polyrating/
 
 # STATS 331 Final
 
