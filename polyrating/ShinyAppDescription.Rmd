@@ -1,0 +1,27 @@
+---
+title: "Shiny App Description"
+output: html_notebook
+---
+
+
+Our app was too expensive to be ran on the Shiny Servers for free, so Professor Bodwin said it was fine that we didn't host our app on their website.
+
+***
+
+Our shiny app is composed of four parts: Term Frequencies, Word Over Time, College Sentiment, and a Word Cloud. 
+
+Term Frequencies:
+
+This portion of our app displays a horizontal bar graph for the 10 most common words that appear in polyratings based upon different criteria that the user specifies. The user can select a specific department, multiple departments, or all departments. Additionally, the user can specify to take out stop words that are used by default in the tidy text package or not, as well as add or remove specific stop words to the default list of stop words used. Finally, the user is able to specify that they want to use TF-IDF metric for the weight of the words. 
+
+Word Over Time:
+
+This section explores how different word(s) in polyratings have changed over time. For the word(s) specified by the user, a scatter plot with an overlaying line of best fit and confidence band is produced, displaying the frequency of the word over the last 20 years. The user is allowed to specify as many departments as they wish, or leave the department unspecified, which calculates the frequency for all departments (default). The user also must specify at least one word for the plot to appear, but cal also specify multiple words, in which case the scatter plot will be color coded by word. 
+
+College Sentiment:
+
+In this section we were able to highlight an interesting feature of tidy text, the sentiment or word(s). We grouped words by department and created graphs for each department at cal poly, which displays how the overall word sentiment of that department had changed over the years. The user can specify any department or multiple departments of interest. 
+
+Word Cloud:
+
+Our final section displays a word cloud of the most frequent words in each department. The user must specify a department to generate the frequencies from, and can only select one department. Additionally, the user can specify the minimum frequency of a word for it to appear in the word cloud as well as the maximum number of words to appear in the word cloud. 

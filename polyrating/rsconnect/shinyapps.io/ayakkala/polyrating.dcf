@@ -1,0 +1,12 @@
+name: polyrating
+title: polyrating
+username:
+account: ayakkala
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 791445
+bundleId: 2102829
+url: https://ayakkala.shinyapps.io/polyrating/
+when: 1558569676.59691
+asMultiple: FALSE
+asStatic: FALSE
