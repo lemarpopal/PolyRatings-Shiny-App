@@ -99,7 +99,7 @@ shinyServer(function(input, output, session) {
         mutate(word = fct_reorder(word,n)) %>%
         ggplot(aes(word, n, fill = word )) + geom_col() +
         xlab(NULL) + coord_flip() + guides(fill = FALSE) + ylab("Term Frequency") +
-        ggtitle(paste(c("Most important words in PolyRating Reviews for",subject_words),collapse = " ")) + 
+        ggtitle(paste(c("Most Important Words in PolyRating Reviews For",subject_words),collapse = " ")) + 
                 guides(fill = FALSE)
     }else{
       subject_selected() %>%
