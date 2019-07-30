@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Anish%20Yakkala-Approved-brightgreen.svg)
-
 You can find the shiny app here!
 
 https://ayakkala.shinyapps.io/polyrating/
