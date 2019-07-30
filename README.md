@@ -2,7 +2,7 @@ You can find the shiny app here!
 
 https://lemarpopal.shinyapps.io/polyrating/
 
-# STATS 331 Final
+# STAT 331 - Statistical Computing with R - Final
 
 - Tidy Text Vignette
 
