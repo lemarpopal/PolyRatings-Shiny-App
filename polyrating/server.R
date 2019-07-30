@@ -81,7 +81,7 @@ shinyServer(function(input, output, session) {
         mutate(word = fct_reorder(word,tf_idf)) %>%
         ggplot(aes(word, tf_idf, fill = word )) + geom_col() +
         xlab(NULL) + coord_flip() + guides(fill = FALSE) + ylab("TF-IDF") +
-        ggtitle(paste(c("Most important words in PolyRating Reviews for",subject_words),collapse = " ")) + 
+        ggtitle(paste(c("Most important words in PolyRating Reviews for", subject_words),collapse = " ")) + 
         guides(fill = FALSE)
     }
     }else{
@@ -150,7 +150,7 @@ shinyServer(function(input, output, session) {
         geom_point() +
         geom_smooth() +
         scale_y_continuous(labels = scales::percent_format()) +
-        ylab("% frequency of word in review") +
+        ylab("% Frequency of Word in Review") +
         xlab(element_blank())
       })
   })

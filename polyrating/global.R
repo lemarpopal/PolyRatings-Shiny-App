@@ -6,13 +6,13 @@ library(lubridate)
 library(wordcloud)
 
 polyrating <- read_csv(
-  "https://raw.githubusercontent.com/ayakkala1/stat_final/master/vignettes/polyrating.csv"
+  "https://raw.githubusercontent.com/lemarpopal/PolyRatings-Shiny-App/master/vignettes/polyrating.csv"
 ) %>% 
   mutate(date = parse_date_time(date,"%m%y")) %>%
   drop_na() %>%
   slice(seq(0.3 * n()))
 
-token_words <- read_csv("https://raw.githubusercontent.com/ayakkala1/stat_final/master/vignettes/unique_poly.csv")
+token_words <- read_csv("https://raw.githubusercontent.com/lemarpopal/PolyRatings-Shiny-App/master/vignettes/unique_poly.csv")
 
 data(stop_words)
 
